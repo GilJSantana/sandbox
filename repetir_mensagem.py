@@ -1,6 +1,4 @@
-mensagem = 'Bem-vindo ao Buscante!'
-contador = 5
+bem_vindo = 'Bem-vindo ao Buscante!'
 
-while contador > 0:
-    print(mensagem)
-    contador -= 1
+for mensagem in range(5):
+    print(bem_vindo)
